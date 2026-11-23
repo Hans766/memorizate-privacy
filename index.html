@@ -1,1 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Política de Privacidad / Privacy Policy — Memorízate</title>
+  <style>
+    :root {
+      --primary: #0d47a1;
+      --accent: #1976d2;
+      --bg: #f5f7fb;
+      --card: #ffffff;
+      --text: #212121;
+      --muted: #546e7a;
+      --border: #dce4f2;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 24px 16px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px 24px;
+      box-shadow: 0 6px 24px rgba(13, 71, 161, 0.08);
+    }
+    header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 16px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      margin: 0;
+      font-size: 1.5rem;
+      color: var(--primary);
+    }
+    .lang-switch {
+      display: flex;
+      gap: 8px;
+    }
+    .lang-btn {
+      border: 1px solid var(--accent);
+      background: #fff;
+      color: var(--accent);
+      padding: 8px 14px;
+      border-radius: 999px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .lang-btn.active {
+      background: var(--primary);
+      color: #fff;
+      border-color: var(--primary);
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 0.92rem;
+      margin-bottom: 18px;
+    }
+    h2 {
+      color: var(--primary);
+      font-size: 1.12rem;
+      margin-top: 22px;
+      margin-bottom: 8px;
+    }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 6px; }
+    a { color: var(--accent); }
+    .hidden { display: none; }
+    .note {
+      background: #e3f2fd;
+      border-left: 4px solid var(--primary);
+      padding: 12px 14px;
+      border-radius: 8px;
+      margin-top: 16px;
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>Memorízate (hc.concent)</h1>
+      <div class="lang-switch">
+        <button id="btn-es" class="lang-btn active" onclick="setLang('es')">🇪🇸 Español</button>
+        <button id="btn-en" class="lang-btn" onclick="setLang('en')">🇺🇸 English</button>
+      </div>
+    </header>
+
+    <section id="sec-es">
+      <p class="meta"><strong>Fecha de vigencia:</strong> 22 de noviembre de 2026 &bull; <strong>Paquete:</strong> <code>hc.concent</code></p>
+
+      <p>Esta Política de Privacidad describe cómo la aplicación móvil <strong>Memorízate</strong> (<code>hc.concent</code>) trata la información cuando utilizas la aplicación en tu dispositivo Android.</p>
+
+      <h2>1. Sin registro ni recolección directa de datos personales</h2>
+      <p><strong>Memorízate</strong> no solicita registro de usuario, inicio de sesión ni recopilación directa de datos personales como nombre, dirección de correo electrónico, número de teléfono o ubicación precisa por parte del desarrollador.</p>
+
+      <h2>2. Almacenamiento local y copia de seguridad</h2>
+      <p>Tu progreso dentro de la aplicación (medallas, récords personales, racha diaria, historial de precisión, preferencia de sonido e idioma elegido) se almacena localmente en tu dispositivo mediante <code>SharedPreferences</code>.</p>
+      <p>Cuando tu dispositivo Android tiene habilitada la copia de seguridad automática del sistema (<strong>Android Auto Backup</strong>), Android puede respaldar estos ajustes y progresos en tu cuenta privada de Google Drive para restaurarlos si reinstalas la aplicación o cambias de teléfono.</p>
+
+      <h2>3. Publicidad (Google AdMob) y consentimiento (Google UMP)</h2>
+      <p><strong>Memorízate</strong> muestra anuncios proporcionados por <strong>Google AdMob</strong> (banners, intersticiales opcionales y anuncios recompensados voluntarios para obtener tiempo extra o recuperar racha).</p>
+      <ul>
+        <li>Google AdMob puede utilizar el identificador de publicidad de Android (permiso <code>com.google.android.gms.permission.AD_ID</code>), información técnica del dispositivo e interacciones con los anuncios para mostrar publicidad personalizada o no personalizada, limitar frecuencia y prevenir fraude.</li>
+        <li>En las regiones aplicables, la aplicación utiliza el SDK oficial <strong>Google User Messaging Platform (UMP)</strong> para solicitar tu consentimiento al inicio y permitirte modificar tus preferencias en cualquier momento desde el icono de privacidad (<code>🔒</code>) en el menú principal.</li>
+        <li>Puedes consultar cómo Google utiliza los datos de sus socios en: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a> y <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">https://policies.google.com/technologies/partner-sites</a>.</li>
+      </ul>
+
+      <h2>4. Privacidad de menores</h2>
+      <p>La aplicación no está dirigida específicamente a recopilar datos personales de menores de 13 años y no almacena perfiles personales en servidores propios.</p>
+
+      <h2>5. Cambios en esta política y contacto</h2>
+      <p>Podemos actualizar esta Política de Privacidad periódicamente. Si tienes preguntas sobre la privacidad en <strong>Memorízate</strong>, escríbenos a: <a href="mailto:shizuventas@gmail.com">shizuventas@gmail.com</a>.</p>
+    </section>
+
+    <section id="sec-en" class="hidden">
+      <p class="meta"><strong>Effective date:</strong> November 22, 2026 &bull; <strong>Package:</strong> <code>hc.concent</code></p>
+
+      <p>This Privacy Policy explains how the mobile application <strong>Memorízate</strong> (<code>hc.concent</code>) handles information when you use the app on your Android device.</p>
+
+      <h2>1. No account registration or direct personal data collection</h2>
+      <p><strong>Memorízate</strong> does not require user registration or sign-in, and the developer does not directly collect personal information such as your name, email address, phone number, or precise location.</p>
+
+      <h2>2. Local storage and device backup</h2>
+      <p>Your in-app progress (earned medals, personal bests, daily streak, accuracy history, sound settings, and selected language) is stored locally on your device via Android <code>SharedPreferences</code>.</p>
+      <p>If <strong>Android Auto Backup</strong> is enabled in your device settings, Android may back up this local app progress to your private Google Drive account so it can be restored if you reinstall the app or switch phones.</p>
+
+      <h2>3. Advertising (Google AdMob) and consent (Google UMP)</h2>
+      <p><strong>Memorízate</strong> displays ads served by <strong>Google AdMob</strong> (adaptive banners, occasional interstitials, and opt-in rewarded ads for extra time or streak recovery).</p>
+      <ul>
+        <li>Google AdMob may process the Android Advertising ID (<code>com.google.android.gms.permission.AD_ID</code>), device diagnostics, and ad interaction data to serve personalized or non-personalized ads, cap frequency, and prevent invalid traffic.</li>
+        <li>Where required by law, the app uses Google's official <strong>User Messaging Platform (UMP)</strong> SDK at launch to request consent and allows changing privacy preferences at any time via the lock icon (<code>🔒</code>) in the main menu.</li>
+        <li>Learn how Google uses information from apps that use its services: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a> and <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">https://policies.google.com/technologies/partner-sites</a>.</li>
+      </ul>
+
+      <h2>4. Children's privacy</h2>
+      <p>This app does not knowingly collect personal information from children under 13 and does not operate developer-hosted user accounts.</p>
+
+      <h2>5. Policy updates and contact</h2>
+      <p>We may update this Privacy Policy from time to time. If you have any privacy questions regarding <strong>Memorízate</strong>, contact us at: <a href="mailto:shizuventas@gmail.com">shizuventas@gmail.com</a>.</p>
+    </section>
+  </main>
+
+  <script>
+    function setLang(lang) {
+      document.getElementById('sec-es').classList.toggle('hidden', lang !== 'es');
+      document.getElementById('sec-en').classList.toggle('hidden', lang !== 'en');
+      document.getElementById('btn-es').classList.toggle('active', lang === 'es');
+      document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+    }
+  </script>
+</body>
+</html>
 
